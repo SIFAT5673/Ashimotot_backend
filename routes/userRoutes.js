@@ -6,7 +6,7 @@ const upload = require('../middleware/multer');
 
 const router = express.Router();
 
-router.post('/signup', signup);
+router.post('users/signup', signup);
 
 router.post ('/verify',isAuthenticated, verifyAccount);
 
